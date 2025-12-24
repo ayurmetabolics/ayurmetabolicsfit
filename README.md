@@ -108,7 +108,6 @@ To connect your domain `AyurMetabolics.fit`:
 
 ```
 ├── app/
-│   ├── api/              # API routes (visits, likes, comments, newsletter)
 │   ├── about/            # About the Author page
 │   ├── blog/[id]/        # Individual blog post pages
 │   ├── research/         # Research/Evidence section
