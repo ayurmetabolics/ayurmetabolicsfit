@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --sage-green: #87a96b;
+  --sage-green-light: #a8c088;
+  --sage-green-dark: #6b8550;
+  --turmeric-gold: #d4a574;
+  --turmeric-gold-light: #e6c19a;
+  --turmeric-gold-dark: #b88d5a;
+  --accent-earth: #8b7355;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-sage-green: var(--sage-green);
+  --color-sage-green-light: var(--sage-green-light);
+  --color-sage-green-dark: var(--sage-green-dark);
+  --color-turmeric-gold: var(--turmeric-gold);
+  --color-turmeric-gold-light: var(--turmeric-gold-light);
+  --color-turmeric-gold-dark: var(--turmeric-gold-dark);
+  --color-accent-earth: var(--accent-earth);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+  line-height: 1.7;
+}
+
+/* Long-form reading optimization */
+article {
+  max-width: 65ch;
+  margin: 0 auto;
+}
+
+article p {
+  margin-bottom: 1.5em;
+}
+
+article h1, article h2, article h3 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  line-height: 1.3;
+}
+
+article h1 {
+  font-size: 2.5em;
+}
+
+article h2 {
+  font-size: 2em;
+}
+
+article h3 {
+  font-size: 1.5em;
+}
